@@ -1,0 +1,30 @@
+{
+  "name": "nodejs-hw",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ton25-Svit/nodejs-hw.git"
+  },
+  "keywords": [],
+  "author": "Тон <id0994597549@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ton25-Svit/nodejs-hw/issues"
+  },
+  "homepage": "https://github.com/Ton25-Svit/nodejs-hw#readme",
+  "dependencies": {
+    "cors": "^2.8.6",
+    "dotenv": "^18.0.10",
+    "express": "^5.3.0",
+    "http-errors": "^2.0.1",
+    "mongoose": "^9.12.1",
+    "pino-http": "^11.0.0"
+  }
+}
